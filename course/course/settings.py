@@ -130,6 +130,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
+RAZORPAY_KEY_ID = "rzp_test_Sy5GCNmQyyzAKR"
+RAZORPAY_KEY_SECRET = "S2M9pvOT4DlbYhilyMJUNf05"
+
+GEMINI_API_KEY = "AQ.Ab8RN6Iy22GtCJJPiGZan81dURKxqA4qPIM5ISIEo9FpN4Z95A"
+
 STATIC_URL = '/static/'
 
 STATICFILE_DIRS=[os.path.join(BASE_DIR,'static'),]
